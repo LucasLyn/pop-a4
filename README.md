@@ -1,7 +1,7 @@
 # PoP - Assignment 4
 PoP - 4i
 
-Don't be stupid...
+This assignment is about tracing and testing. In this case, a vector library was given, which should be traced and tested.
 
 
 # PoP - 4i
@@ -9,24 +9,20 @@ Don't be stupid...
 
 ## Kode
 
-Først compiles module filerne til en .dll fil med fsharpc;
+The library is compiled with fsharpc;
 
 	$ fsharpc -a vec2dsmall.fsi vec2dsmall.fs
 
 
-Derefter compiles 4i1 med fsharpc, og køres derefter med mono;
+The code is compiled with the library with fsharpc and run with mono;
 
 	$ fsharpc -r vec2dsmall.dll 4i1.fsx
-	$ mono 4i1.exe
-
-
-Til sidst compiles og køres 4i2 med fsharpc og mono;
-
 	$ fsharpc -r vec2dsmall.dll 4i2.fsx
+	$ mono 4i1.exe
 	$ mono 4i2.exe
 
 
-vec2dsmall.fsi compiles til XML med fsharpc;
+The library is compiled to XML with fsharpc;
 
 	$ fsharpc --doc:vec2dsmall.xml -a vec2dsmall.fsi vec2dsmall.fs
  
