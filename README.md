@@ -29,3 +29,4 @@ Til sidst compiles og køres 4i2 med fsharpc og mono;
 vec2dsmall.fsi compiles til XML med fsharpc;
 
 	$ fsharpc --doc:vec2dsmall.xml -a vec2dsmall.fsi vec2dsmall.fs
+ 
