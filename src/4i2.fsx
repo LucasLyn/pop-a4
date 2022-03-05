@@ -37,7 +37,7 @@ printfn "Vector %A: (%f, %f)" s (vec2d.len s) (vec2d.ang s)
 // 21   | 05    E0    s = ?
 // 22   | 18/fs E1    add = (v = (1.3, -2.5), w = (-0.1, 0.5), body, v + w)
 // 23   | 19/fs E1    (x1, y1) = v
-// 24  | 20/fs E1    (x2, y2) = w
+// 24   | 20/fs E1    (x2, y2) = w
 // 25   | 21/fs E1    (x1 + x2, y1 + y2)
 // 26   | 05    E1    s = (1.2, -2.0)
 // 27   | 06    E0    Output = "Vector (1.2, -2.0): (?, ?)"
